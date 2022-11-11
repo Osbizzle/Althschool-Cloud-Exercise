@@ -1,8 +1,0 @@
-mysql_root_password: "12345"
-mysql_databases:
-  - name: laravel
-mysql_users:
-  - name: slave
-    host: "%"
-    password: 12345
-    priv: "laravel.*:ALL"
